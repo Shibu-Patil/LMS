@@ -4,7 +4,6 @@ import { Outlet } from "react-router-dom";
 const Layout = () => {
   return (
     <div>
-      <h1>I am navbar conatiner</h1>
       <NavbarContainer />
       <Outlet />
     </div>
